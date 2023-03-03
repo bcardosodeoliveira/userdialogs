@@ -4,7 +4,7 @@
         <TargetFrameworks>netstandard2.0;monoandroid12.0;</TargetFrameworks>
         <PackageProjectUrl>https://github.com/aritchie/userdialogs</PackageProjectUrl>
         <Product>$(AssemblyName) ($(TargetFramework))</Product>
-        <Authors>Allan Ritchie</Authors>
+        <Authors>Bruno Cardoso</Authors>
         <Description>A cross platform library that allows you to call for standard user dialogs from a shared/portable library. Supports Android</Description>
         <PackageTags>android xamarin xam.pcl dialogs plugin</PackageTags>
         <LibraryVersion Condition=" '$(LibraryVersion)' == '' ">7.2.0</LibraryVersion>
@@ -14,9 +14,10 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <LangVersion>latest</LangVersion>
         <NoWarn>$(NoWarn);1591;1701;1591;1702;1705;VSX1000;NU1603</NoWarn>
-        <RepositoryUrl>https://github.com/aritchie/userdialogs</RepositoryUrl>
+        <RepositoryUrl>https://github.com/bcardosodeoliveira/userdialogs</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <ExtrasUwpMetaPackageVersion>6.2.13</ExtrasUwpMetaPackageVersion>
+        <PackageId>Acr.UserDialogs.Jidd</PackageId>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
